@@ -8,6 +8,7 @@ import (
 	log "github.com/Sirupsen/logrus"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
+	"github.com/prometheus/client_golang/prometheus"
 )
 
 func main() {
@@ -23,5 +24,6 @@ func main() {
 	e.GET("/health_check", func(c echo.Context) error {
 		return c.String(http.StatusOK, "ok")
 	})
+	e.GET("/metrics", echo.WrapHandler(prometheus.Handler()))
 	e.Start(":8080")
 }
