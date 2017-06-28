@@ -1,0 +1,65 @@
+hash: a81410caeafec6ed01817678ba21734114bd0c1b392491829240f839b22548da
+updated: 2017-06-28T23:28:54.702849489+08:00
+imports:
+- name: github.com/beorn7/perks
+  version: 4c0e84591b9aa9e6dcfdf3e020114cd81f89d5f9
+  subpackages:
+  - quantile
+- name: github.com/dgrijalva/jwt-go
+  version: a539ee1a749a2b895533f979515ac7e6e0f5b650
+- name: github.com/golang/protobuf
+  version: 6a1fa9404c0aebf36c879bc50152edcc953910d2
+  subpackages:
+  - proto
+- name: github.com/labstack/echo
+  version: 83eadbad188df0d05305fce89bfb855a19ef5f21
+  subpackages:
+  - middleware
+- name: github.com/labstack/gommon
+  version: 1121fd3e243c202482226a7afe4dcd07ffc4139a
+  subpackages:
+  - bytes
+  - color
+  - log
+  - random
+- name: github.com/mattn/go-colorable
+  version: 941b50ebc6efddf4c41c8e4537a5f68a4e686b24
+- name: github.com/mattn/go-isatty
+  version: fc9e8d8ef48496124e79ae0df75490096eccf6fe
+- name: github.com/matttproud/golang_protobuf_extensions
+  version: c12348ce28de40eed0136aa2b644d0ee0650e56c
+  subpackages:
+  - pbutil
+- name: github.com/prometheus/client_golang
+  version: ab4214782d022e867e3195b4c9ddb1ca45413382
+  subpackages:
+  - prometheus
+- name: github.com/prometheus/client_model
+  version: 6f3806018612930941127f2a7c6c453ba2c527d2
+  subpackages:
+  - go
+- name: github.com/prometheus/common
+  version: 0866df4b85a18d652b6965be022d007cdf076822
+  subpackages:
+  - expfmt
+  - internal/bitbucket.org/ww/goautoneg
+  - model
+- name: github.com/prometheus/procfs
+  version: 822d4a1f8edcbcbc71e8d1fd6527b12331a6d0ad
+  subpackages:
+  - xfs
+- name: github.com/Sirupsen/logrus
+  version: 3d4380f53a34dcdc95f0c1db702615992b38d9a4
+- name: github.com/valyala/bytebufferpool
+  version: e746df99fe4a3986f4d4f79e13c1e0117ce9c2f7
+- name: github.com/valyala/fasttemplate
+  version: dcecefd839c4193db0d35b88ec65b4c12d360ab0
+- name: golang.org/x/crypto/acme/autocert
+  version: 84f24dfdf3c414ed893ca1b318d0045ef5a1f607
+  repo: git@github.com:golang/crypto.git
+  vcs: git
+- name: golang.org/x/sys/unix
+  version: 90796e5a05ce440b41c768bd9af257005e470461
+  repo: git@github.com:golang/sys.git
+  vcs: git
+testImports: []

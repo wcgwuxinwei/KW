@@ -4,3 +4,12 @@ import:
 - package: github.com/labstack/echo
   subpackages:
   - middleware
+- package: github.com/prometheus/client_golang
+  subpackages:
+  - prometheus
+- package: golang.org/x/crypto/acme/autocert
+  repo: git@github.com:golang/crypto.git
+  vcs: git
+- package: golang.org/x/sys/unix
+  repo: git@github.com:golang/sys.git
+  vcs: git
